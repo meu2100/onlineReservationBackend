@@ -1,16 +1,18 @@
 // 讀取資料
-
-// 改用Promise
 const fs = require("fs");
 
-function readFileAsync(filePath, callback) {
-  fs.readFile(filePath, "utf8", (err, data) => {
-    if (err) {
-      callback(err, null);
-      return;
-    }
-    callback(null, data);
+function readFileAsync(filePath) {
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, "utf8", (err, data) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(data);
+      }
+    });
   });
 }
+
+// function readFileById(filePath) {}
 
 module.exports = readFileAsync;
