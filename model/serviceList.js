@@ -13,6 +13,4 @@ function readFileAsync(filePath) {
   });
 }
 
-// function readFileById(filePath) {}
-
 module.exports = readFileAsync;

@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Peter",
     "gender": "male",
-    "img": "Peter.png",
-    "expertise": "",
-    "certificates": ""
+    "img": "1.png",
+    "expertise": "Thai massage",
+    "certificates": "[Thai massage-Thai massage Certificate, AAA-BBB]"
   },
   {
     "id": 2,
-    "name": "",
-    "gender": "",
-    "img": ".png",
-    "expertise": "",
-    "certificates": ""
+    "name": "Mina",
+    "gender": "Female",
+    "img": "2.png",
+    "expertise": "Foot massage",
+    "certificates": "[Foot massage-Foot massage Certificate, AAA-BBB]"
   },
   {
     "id": 3,
-    "name": "",
-    "gender": "",
-    "img": ".png",
-    "expertise": "",
-    "certificates": ""
+    "name": "Candy",
+    "gender": "Female",
+    "img": "3.png",
+    "expertise": "Hot stone massage",
+    "certificates": "[Hot stone massage-Hot stone massage Certificate, AAA-BBB]"
   }
 ]
